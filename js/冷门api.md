@@ -5,5 +5,5 @@ const resizeObserver = new ResizeObserver((entries) => {
  		console.log("size change");
  	}
  });
-resizeObserver.observe(this.$refs["custom-table-body"]);
+resizeObserver.observe(dom);
 ```
