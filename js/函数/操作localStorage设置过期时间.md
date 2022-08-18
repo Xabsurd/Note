@@ -15,7 +15,7 @@ export function setItem(params) {
   Object.assign(options, obj, params);
   if (options.expires) {
     //如果options.expires设置了的话
-    //以options.name为key，options为值放进去
+    //以options.name为key，options为值放进去	
     localStorage.setItem(options.name, JSON.stringify(options));
   } else {
     //如果options.expires没有设置，就判断一下value的类型

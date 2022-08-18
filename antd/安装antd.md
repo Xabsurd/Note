@@ -1,4 +1,4 @@
-### 前置：[[安装react|安装react]]
+### 前置:[安装react](/react/%E5%AE%89%E8%A3%85react.md)
 
 ### 安装antd
 ```shell
